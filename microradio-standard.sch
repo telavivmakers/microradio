@@ -10143,6 +10143,15 @@ naming: grid - package width</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="" package="M1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="C-TRIMM" prefix="C" uservalue="yes">
@@ -13107,17 +13116,17 @@ naming: grid - package width</description>
 </class>
 </classes>
 <parts>
-<part name="C1" library="microradio-standard" deviceset="C" device="5/3" value="0.01uF"/>
+<part name="C1" library="microradio-standard" deviceset="C" device="" value="0.01uF"/>
 <part name="C2" library="microradio-standard" deviceset="C" device="5/3" value="10pF"/>
 <part name="L1" library="microradio-standard" deviceset="L-US" device="0204/5"/>
-<part name="R1" library="microradio-standard" deviceset="R-US_" device="0207/7" value="470"/>
-<part name="R2" library="microradio-standard" deviceset="R-US_" device="0207/7" value="10K"/>
-<part name="R3" library="microradio-standard" deviceset="R-US_" device="0207/7" value="27K"/>
+<part name="R1" library="microradio-standard" deviceset="R-US_" device="R1206" value="470"/>
+<part name="R2" library="microradio-standard" deviceset="R-US_" device="R1206" value="10K"/>
+<part name="R3" library="microradio-standard" deviceset="R-US_" device="R1206" value="27K"/>
 <part name="FRAME1" library="frames" deviceset="DINA5_L" device=""/>
-<part name="C3" library="microradio-standard" deviceset="CPOL-US" device="B45181A" value="33uF"/>
+<part name="C3" library="microradio-standard" deviceset="CPOL-US" device="153CLV-0405" value="33uF"/>
 <part name="C4" library="microradio-standard" deviceset="C-TRIMM" device="3008" value="10-20pF"/>
 <part name="T1" library="microradio-standard" deviceset="*-NPN-" device="TO92-BCE" value="NPN (ECB)"/>
-<part name="C5" library="microradio-standard" deviceset="C" device="5/3" value="0.01uF"/>
+<part name="C5" library="microradio-standard" deviceset="C" device="" value="0.01uF"/>
 <part name="GND1" library="microradio-standard" deviceset="GND" device=""/>
 <part name="MP2" library="microradio-standard" deviceset="MICROSTRIP" device="MI"/>
 <part name="MP4" library="microradio-standard" deviceset="MICROSTRIP" device="MI"/>
